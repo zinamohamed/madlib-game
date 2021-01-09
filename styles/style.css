@@ -1,6 +1,10 @@
 
 body {
     background-color: blue;
+    background-image: url("https://wallpapertag.com/wallpaper/full/6/6/7/743015-journey-band-wallpaper-1920x1080-for-htc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 h1 {
@@ -16,6 +20,7 @@ h2 {
 section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding:20px;
 }
 
@@ -31,5 +36,19 @@ section {
     line-height: 2em;
 }
 
+.submit {
+    width: 100px;
+    margin: 20px;   
+    
+}
 
 
+
+.input-boxes {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 8px;
+}
