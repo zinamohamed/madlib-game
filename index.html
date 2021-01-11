@@ -9,36 +9,37 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <h1>Mad Lib Journey</h1>
-    <section class="input-boxes">
-        <div><input type="text" placeholder="Verb" id="verb-1-input"></div>
+<main>
+    <section id="input-boxes" class="input-boxes">
         <div><input type="text" placeholder="Noun" id="noun-1-input"></div>
-        <div><input type="text" placeholder="Adjective" id="adjective-1-input"></div>
-        <div><input type="text" placeholder="Vehicle" id="vehicle-input"></div>
+        <div><input type="text" placeholder="Adjective" id="adjective-input"></div>
+        <div><input type="text" placeholder="Vehcile" id="vehcile-input"></div>
         <div><input type="text" placeholder="Noun" id="noun-2-input"></div>
-        <div><input type="text" placeholder="Noun" id="noun-3-input"></div>
+        <div><input type="text" placeholder="Occupation" id="noun-3-input"></div>
         <div><input type="text" placeholder="Noun" id="noun-4-input"></div>
         <div><input type="text" placeholder="Noun" id="noun-5-input"></div>
-        <div><input type="text" placeholder="Expression" id="expression-input"></div>
+        <div><input type="text" placeholder="Item" id="expression-input"></div>
         <button class="submit" id="submit-button">Submit</button>
     </section>
 
 
 
 
-    <section class="song">
-        <h2>Don't Stop <span id="verb"></span>ing!</h2>
+    <section id ="song" class="song">
         <div id="verse-1">
             Just a small town <span id="noun-1"></span><br>
             Livin' in a <span id="adjective-1"></span> world<br>
-            She took the midnight <span id="vehicle"></span> goin' anywhere<br>
+            She took the midnight <span id="vehcile"></span> goin' anywhere <br>
             Just a city <span id="noun-2"></span><br>
             Born and raised in South Detroit<br>
-            He took the midnight <span id="vehicle"></span> goin' anywhere<br>
+            He took the midnight <span id="vehcile"></span> goin' anywhere 
         </div>
         <div id="verse-2">
             A <span id="noun-3"></span> in a smokey room<br>
@@ -47,6 +48,7 @@
             It goes on and on, and on, and on
         </div>
     </section>
+</main>
     <script type="module" src="app.js"></script>
 </body>
 

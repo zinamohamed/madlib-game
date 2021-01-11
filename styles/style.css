@@ -1,15 +1,27 @@
 
 body {
-    background-color: blue;
+    
     background-image: url("https://wallpapertag.com/wallpaper/full/6/6/7/743015-journey-band-wallpaper-1920x1080-for-htc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 3.5em;
     padding: 5px;
+    font-family: 'Rock Salt', cursive;
+    color: blue;
+   
+
 }
 
 h2 {
@@ -24,17 +36,7 @@ section {
     padding:20px;
 }
 
-#verse-1 {
-    padding: 20px;
-    font-size: 24px;
-    line-height: 2em;
-}
 
-#verse-2 {
-    padding:20px;
-    font-size: 24px;
-    line-height: 2em;
-}
 
 .submit {
     width: 100px;
@@ -45,10 +47,33 @@ section {
 
 
 .input-boxes {
-    margin-top: 10px;
+    margin: 10px;
+    background-color: blue;
+    width: 250px;
+
+}
+
+.song {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    width: 400px;
+    height: 480px;
+    margin-top: 30px;
+    background: blue;
+    margin-left: 400px;
+    visibility: hidden;
+    
 }
 
 input {
     padding: 8px;
     margin: 8px;
+    
+}
+
+.submit {
+    background: blue;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
 }
