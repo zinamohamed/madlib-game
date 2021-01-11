@@ -50,6 +50,7 @@ section {
     margin: 10px;
     background-color: blue;
     width: 250px;
+    border: 1px solid black;
 
 }
 
@@ -62,6 +63,7 @@ section {
     background: blue;
     margin-left: 400px;
     visibility: hidden;
+    border: 1px solid black;
     
 }
 
