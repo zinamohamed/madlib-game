@@ -37,7 +37,8 @@ submitButton.addEventListener('click', () => {
     nounThree.textContent = thirdNoun;
     nounFour.textContent = fourthNoun;
     nounFive.textContent = fifthNoun;
-    vehicleOne.textContent, vehicleTwo.textContent = vehicle;
+    vehicleOne.textContent = vehicle;
+    vehicleTwo.textContent = vehicle;
     adjectiveOne.textContent = adjective;
     expressionOne.textContent = expression;
 
